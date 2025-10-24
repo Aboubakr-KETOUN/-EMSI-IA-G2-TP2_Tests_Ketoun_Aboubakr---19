@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41720b43-2eee-4f02-a855-571dad420938" name="Changes" comment="creation du deuxieme test qui fait la traduction vers anglais en utilisant prompttemplate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/ketoun/tp2/tests/Test3.java" afterDir="false" />
+    <list default="true" id="41720b43-2eee-4f02-a855-571dad420938" name="Changes" comment="creation du test 3 en utilisant le model d embedding (gemini-embedding-001) puis test sur deux phrase avec meme sens et differents mots">
+      <change afterPath="$PROJECT_DIR$/infos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/ketoun/tp2/tests/Test4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -54,6 +55,7 @@
     "Application.Test1.executor": "Run",
     "Application.Test2.executor": "Run",
     "Application.Test3.executor": "Run",
+    "Application.Test4.executor": "Run",
     "Maven.TP2KetounAboubakr_Tests [clean].executor": "Run",
     "Maven.TP2KetounAboubakr_Tests [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,7 +75,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test3">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.emsi.ketoun.tp2.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test4">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ma.emsi.ketoun.tp2.tests.Test1" />
       <module name="TP2KetounAboubakr_Tests" />
@@ -113,8 +120,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.emsi.ketoun.tp2.tests.Test4" />
+      <module name="TP2KetounAboubakr_Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.emsi.ketoun.tp2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test1" />
@@ -139,7 +160,7 @@
       <updated>1761235944181</updated>
       <workItem from="1761235945120" duration="3954000" />
       <workItem from="1761320609534" duration="1657000" />
-      <workItem from="1761322306604" duration="295000" />
+      <workItem from="1761322306604" duration="2684000" />
     </task>
     <task id="LOCAL-00001" summary="initial init - setting de lenvironement dependances">
       <option name="closed" value="true" />
@@ -165,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761238657647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creation du test 3 en utilisant le model d embedding (gemini-embedding-001) puis test sur deux phrase avec meme sens et differents mots">
+      <option name="closed" value="true" />
+      <created>1761322820362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761322820362</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +204,7 @@
     <MESSAGE value="initial init - setting de lenvironement dependances" />
     <MESSAGE value="creation du premier test classe qui fait appel au model de gemini avec une question passe par la methode .chat()" />
     <MESSAGE value="creation du deuxieme test qui fait la traduction vers anglais en utilisant prompttemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation du deuxieme test qui fait la traduction vers anglais en utilisant prompttemplate" />
+    <MESSAGE value="creation du test 3 en utilisant le model d embedding (gemini-embedding-001) puis test sur deux phrase avec meme sens et differents mots" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation du test 3 en utilisant le model d embedding (gemini-embedding-001) puis test sur deux phrase avec meme sens et differents mots" />
   </component>
 </project>
