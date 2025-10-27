@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41720b43-2eee-4f02-a855-571dad420938" name="Changes" comment="creation du test 4 le easy rag et ajout du fichier de data infos">
-      <change afterPath="$PROJECT_DIR$/ml.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/ketoun/tp2/tests/Test5.java" afterDir="false" />
+    <list default="true" id="41720b43-2eee-4f02-a855-571dad420938" name="Changes" comment="creation du test 5 rag avec decoupage de fichier pdf en chunks et un chat interactif + ajout de pdf">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/ketoun/tp2/tests/MeteoTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/ketoun/tp2/tests/Test6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/emsi/ketoun/tp2/tests/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/ketoun/tp2/tests/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,8 @@
     "Application.Test2.executor": "Run",
     "Application.Test3.executor": "Run",
     "Application.Test4.executor": "Run",
+    "Application.Test5.executor": "Run",
+    "Application.Test6.executor": "Run",
     "Maven.TP2KetounAboubakr_Tests [clean].executor": "Run",
     "Maven.TP2KetounAboubakr_Tests [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -138,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,9 @@
       <updated>1761235944181</updated>
       <workItem from="1761235945120" duration="3954000" />
       <workItem from="1761320609534" duration="1657000" />
-      <workItem from="1761322306604" duration="3736000" />
+      <workItem from="1761322306604" duration="4117000" />
+      <workItem from="1761389167813" duration="222000" />
+      <workItem from="1761589003880" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="initial init - setting de lenvironement dependances">
       <option name="closed" value="true" />
@@ -205,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761325378344</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="creation du test 5 rag avec decoupage de fichier pdf en chunks et un chat interactif + ajout de pdf">
+      <option name="closed" value="true" />
+      <created>1761326283928</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761326283928</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +230,7 @@
     <MESSAGE value="creation du deuxieme test qui fait la traduction vers anglais en utilisant prompttemplate" />
     <MESSAGE value="creation du test 3 en utilisant le model d embedding (gemini-embedding-001) puis test sur deux phrase avec meme sens et differents mots" />
     <MESSAGE value="creation du test 4 le easy rag et ajout du fichier de data infos" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation du test 4 le easy rag et ajout du fichier de data infos" />
+    <MESSAGE value="creation du test 5 rag avec decoupage de fichier pdf en chunks et un chat interactif + ajout de pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation du test 5 rag avec decoupage de fichier pdf en chunks et un chat interactif + ajout de pdf" />
   </component>
 </project>
